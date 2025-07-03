@@ -327,7 +327,7 @@ process_stepcount_result = function(result, model, tz = "UTC") {
   out = list(
     steps = result,
     walking = W,
-    step_times = T_steps
+    step_times = T_steps,
      summary = summary,
      summary_adjusted = summary_adj
   )
